@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  margin: 10px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #FFF;
+  z-index: 10;
+  padding: 10px 0;
+}
+nav .orta {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .orta .left {
+  width: 12%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .orta .centre {
+  width: 46%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+nav .orta .centre .search-hidden {
+  position: absolute;
+  left: -3%;
+  color: blue;
+  border: 1px solid #212121;
+  padding: 10px;
+  width: 95%;
+  border-right: none;
+  border-color: blue;
+}
+nav .orta .centre input {
+  width: 90%;
+  padding: 10px;
+  margin-right: 20px;
+}
+nav .orta .centre .search-visible {
+  position: absolute;
+  left: 90%;
+  border: 1px solid rgb(164, 163, 163);
+  padding: 10.6px;
+  background-color: rgb(160, 160, 160);
+}
+nav .orta #search:focus {
+  width: 100%;
+  outline-color: blue;
+  outline: none;
+  border: none;
+}
+nav .orta #search:focus .search-hidden {
+  opacity: 1;
+  transition: 1s;
+}
+nav .orta .right {
+  width: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .orta .right div {
+  color: rgb(199, 188, 188);
+}
+nav .orta .right div:last-child {
+  border-radius: 50%;
+  background-color: darkcyan;
+  padding: 5px;
+}
+
+.orta1 {
+  width: 90%;
+  margin: 15px auto;
+}
+.orta1 .s1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.orta1 .s1 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 74%;
+}
+.orta1 .s1 .left .info {
+  margin-top: 20px;
+}
+.orta1 .s1 .left .info span {
+  color: blue;
+}
+.orta1 .s1 .left .info h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.orta1 .s1 .left .like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.orta1 .s1 .left .like .dislike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 57%;
+  flex-direction: row;
+}
+.orta1 .s1 .left .like .dislike .items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.orta1 .s1 .left .like .dislike .items h1 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.orta1 .s1 .right {
+  width: 25%;
+}
+.orta1 .s1 .right .row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.orta1 .s1 .right .row .left {
+  width: 80%;
+  margin-right: 13px;
+}
+.orta1 .s1 .right .row .left img {
+  width: 100%;
+}
+.orta1 .s1 .right .row .right {
+  width: 100%;
+}
+.orta1 .s1 .right .row .right h1 {
+  font-size: 14px;
+  width: 105%;
+}
+.orta1 .s1 .right .row .right span {
+  font-size: 16px;
+}/*# sourceMappingURL=ikincisehfe.css.map */
